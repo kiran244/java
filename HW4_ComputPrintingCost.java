@@ -1,31 +1,24 @@
 package chapter3;
 import java.util.Scanner;
 
-//HW4
-//Programmer:
-//Input : Number of copies
-//Output : Cost
-
 public class HW4_ComputPrintingCost {
 
 	public static void main(String[] args) {
-		
-		//Create a Scanner
+	//Create a Scanner
        Scanner input = new Scanner(System.in);
        
-       // 1. Declare variables
-       
+       // 1. Declare variables      
         final double PRINT_COST1 = 0.05;
-		final double PRINT_COST2 = 0.06;
-		final double PRINT_COST3 = 0.07;
-		final double PRINT_COST4 = 0.08;
-		final double PRINT_COST5 = 0.10;
+	final double PRINT_COST2 = 0.06;
+	final double PRINT_COST3 = 0.07;
+	final double PRINT_COST4 = 0.08;
+	final double PRINT_COST5 = 0.10;
 		    
-		double cost, rate;
-		int copies;
+	double cost, rate;
+	int copies;
        
        // 2. Input: Number
-	    System.out.println("Please enter number of copies ");
+	System.out.println("Please enter number of copies ");
         copies = input.nextInt();
        
        // 3. Compute use IF and ELSE	
