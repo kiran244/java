@@ -22,7 +22,7 @@ int c,d,e,f,g,h;
 
 	public static void main(String[] args) {
 		
-System.out.println("yash");
+		System.out.println("yash");
 		
 		Test name = new Test();
 		
@@ -35,6 +35,8 @@ System.out.println("yash");
 		 obj2.display1();	
 		 
 		 obj1.display1();
+		 
+		 obj2.display();
 		
 
 	}
